@@ -33,7 +33,7 @@ nmap 10.129.1.17 (host IP)
 
 ### Initial Access
 
-Access was achieved by entering the username "root" during login.
+After establshing a telnet remote connection, access was achieved by entering the username "root" into the login prompt.
 
 ![meow_root_access](MEOW_Screenshots/meow_root_access.png)
 
