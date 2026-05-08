@@ -9,7 +9,7 @@
 
 ## Objective
 
-The objective of this machine is to practice simple enumeration using nmap and to explore the vulnerable nature of Telnet.
+- The objective of this machine is to practice simple enumeration using nmap and to explore the vulnerable nature of Telnet.
 
 ## Skills Demonstrated
 
@@ -17,7 +17,7 @@ The objective of this machine is to practice simple enumeration using nmap and t
 
 ## Enumeration
 
-Nmap enumeration found the only open to be Telnet running on TCP port 23.
+- Nmap enumeration found the only open to be Telnet running on TCP port 23.
 
 ### Nmap Scan
 
@@ -33,16 +33,16 @@ nmap 10.129.1.17 (host IP)
 
 ### Initial Access
 
-After establshing a telnet remote connection, access was achieved by entering the username "root" into the login prompt.
+- After establshing a telnet remote connection, access was achieved by entering the username "root" into the login prompt.
 
 ![meow_root_access](MEOW_Screenshots/meow_root_access.png)
 
 ## Privilege Escalation
 
-Privelege escalation was unnecessary in this lab due to the user account accessed having root privelege.
+- Privelege escalation was unnecessary in this lab due to the user account accessed having root privelege.
 
 # Flags Captured
 
--flag: b40abdfe23665f766f9c61ecba8a4c19
+- flag: b40abdfe23665f766f9c61ecba8a4c19
 
 ![meow_flag](MEOW_Screenshots/meow_flag.png)
